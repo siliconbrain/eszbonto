@@ -289,7 +289,7 @@
         </style>
     </head>
     <body>
-        <div id="app">
+        <main id="app">
             <header>
                 <h1>Észbontó</h1>
                 <h2>Figyelemmegosztó-képesség teszt</h2>
@@ -407,12 +407,16 @@
                 </div>
                 <button id="close">Bezárás</button>
             </section>
-        </div>
-        <div id="attribution" style="font-size: 0.9em; margin: 1em;">
-            <span>Eredeti ötlet: <a href="http://ait.iit.uni-miskolc.hu/~dudas/" target="blank">Dr. Dudás László</a></span><br>
-            <span>HTML5 implementáció: <a href="https://siliconbrain.github.io" target="blank">Dudás Ádám</a></span><br>
-            <span>Minden jog fenntartva. 2016</span>
-        </div>
+        </main>
+        <footer style="font-size: 0.9em; margin: 1em;">
+            <section id="attribution">
+                <div>Eredeti ötlet: <a href="http://ait.iit.uni-miskolc.hu/~dudas/" target="blank">Dr. Dudás László</a></div>
+                <div>HTML5 implementáció: <a href="https://siliconbrain.github.io" target="blank">Dudás Ádám</a></div>
+            </section>
+            <section id="license">
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.hu">Nevezd meg! Ne add el!</a>
+            </section>
+        </footer>
         <script>
             var startButton = document.querySelector('#start');
             var ageInput = document.querySelector('#age');
